@@ -1,6 +1,6 @@
 # BusyBot and Buttonbot
 
-Display any message on a Pimoroni Scroll pHAT HD using MQTT
+Display any message on a Pimoroni Unicorn HAT Mini using MQTT
 
 ## Client
 
@@ -10,7 +10,7 @@ For BusyBot (display messages):
 
 - Raspberry Pi Zero W
 - Raspberry Pi OS Lite
-- Pimoroni Scroll pHAT HD
+- Pimoroni Unicorn HAT Mini
 
 For ButtonBot (send messages with a single click):
 
@@ -33,7 +33,7 @@ broker for general use, just install it on BusyBot.
 sudo apt -y update && sudo apt -y full-upgrade
 sudo apt install git python3-pip
 sudo pip3 install paho-mqtt
-curl https://get.pimoroni.com/scrollphathd | bash
+sudo pip3 install unicornhatmini
 sudo pip3 install smbus
 ```
 
@@ -41,7 +41,7 @@ sudo pip3 install smbus
 
 ```
 cd
-git clone https://github.com/mrpjevans/busybot.git
+git clone https://github.com/jamiesonetc/busybot.git
 cd busybot
 ```
 

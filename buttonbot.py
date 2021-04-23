@@ -15,7 +15,7 @@ current_message = -1
 parser = argparse.ArgumentParser(
     description="Send messages to an MQTT broker from a Keybow")
 parser.add_argument("-b", "--broker", type=str,
-                    help="Address of MQTT broker (default 127.0.0.1)", default="127.0.0.1")
+                    help="Address of MQTT broker (default 192.168.86.100)", default="192.168.86.100")
 parser.add_argument("-c", "--client", type=str,
                     help="Client name (default 'buttonbot')", default="buttonbot")
 parser.add_argument("-t", "--topic", type=str,

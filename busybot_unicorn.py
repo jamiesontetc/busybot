@@ -1,9 +1,9 @@
 import time
-import scrollphathd
+import UnicornHATMini
 import paho.mqtt.client as mqtt
 
 # Change these to suit your needs
-broker = '192.168.0.100'
+broker = '192.168.68.100'
 client_name = 'busybot'
 topic = 'study/busybot'
 brightness = 0.1
@@ -60,6 +60,6 @@ client.on_message = on_message
 print('Listening to ' + topic)
 client.loop_start()
 
-scrollphathd.set_brightness(brightness)
+unicornhatmini.set_brightness(brightness)
 # scrollphathd.flip(1, 1)
 scroll_message()

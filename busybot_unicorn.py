@@ -75,6 +75,8 @@ while True:
     unicornhatmini.show()
     time.sleep(0.05)
 
+#original busybot    
+    
 def scroll_message():
     # Original function by Pimoroni x
     global current_message

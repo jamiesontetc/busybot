@@ -6,9 +6,9 @@ import time
 
 # Messages to send - customise as needed!
 status_messages = [
-    'Zooming',
-    'Busy',
-    'Headphones on'
+    'Cora',
+    'Phoebe',
+    'N+J'
 ]
 current_message = -1
 
@@ -17,7 +17,7 @@ parser = argparse.ArgumentParser(
 parser.add_argument("-b", "--broker", type=str,
                     help="Address of MQTT broker (default 192.168.86.100)", default="192.168.86.100")
 parser.add_argument("-c", "--client", type=str,
-                    help="Client name (default 'buttonbot')", default="buttonbot")
+                    help="Client name (default 'pizeroblack')", default="pizeroblack")
 parser.add_argument("-t", "--topic", type=str,
                     help="Topic to subscribe to (default 'busybot')", default="busybot")
 args = parser.parse_args()

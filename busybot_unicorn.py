@@ -10,8 +10,8 @@ from unicornhatmini import UnicornHATMini
 
 # Change these to suit your needs
 broker = '192.168.68.100'
-client_name = 'busybot'
-topic = 'study/busybot'
+client_name = 'busybot_unicorn'
+topic = 'busybot'
 brightness = 0.1
 
 text = '' 

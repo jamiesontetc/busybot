@@ -1,12 +1,11 @@
 import time
 import sys
-import UnicornHATMini
+from unicornhatmini import UnicornHATMini
 import paho.mqtt.client as mqtt
 
 from colorsys import hsv_to_rgb
 
 from PIL import Image, ImageDraw, ImageFont
-from unicornhatmini import UnicornHATMini
 
 # Change these to suit your needs
 broker = '192.168.68.100'

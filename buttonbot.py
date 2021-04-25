@@ -41,7 +41,7 @@ def handle_key(index, state):
                     keybow.set_led(i, 0, 0, 0)
                     client.publish(topic, " ")
                 else:
-                    keybow.set_led(i, 255, 0, 0)
+                    keybow.set_led(i, 0, 128, 128)
                     current_message = index
                     client.publish(topic, status_messages[i])
             else:

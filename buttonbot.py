@@ -8,7 +8,7 @@ import time
 status_messages = [
     'Cora',
     'Phoebe',
-    'N+J'
+    'N&J'
 ]
 current_message = -1
 

@@ -54,6 +54,6 @@ client = mqtt.Client(client_name)
 client.connect(broker)
 print("Sending to topic " + topic + " on broker " + broker)
 
-while True:
-    keybow.show()
-    time.sleep(1.0 / 60.0)
+# while True:
+#     keybow.show()
+#     time.sleep(1.0 / 60.0)
